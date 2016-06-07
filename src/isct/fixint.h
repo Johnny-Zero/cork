@@ -46,7 +46,7 @@
 
 
 #include <cstddef>
-#ifdef _WIN32
+#ifdef _MSC_VER
 #include <mpir.h>
 #else
 #include <gmp.h>
